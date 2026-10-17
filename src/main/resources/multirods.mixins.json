@@ -1,0 +1,28 @@
+{
+	"required": true,
+	"package": "com.lincoln.multirods.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"priority": 2147483647,
+	"mixins": [
+		"FishingHookAccessor",
+		"FishingHookConstructorMixin",
+		"FishingHookDistanceMixin",
+		"FishingHookMixin",
+		"FishingHookOwnerMixin",
+		"FishingHookUnloadMixin",
+		"FishingRodItemMixin",
+		"MultiRodsFishingHookMixin",
+		"MultiRodsFishingHookRemoveMixin",
+		"MultiRodsFishingLineBreakMixin",
+		"MultiRodsMixin",
+		"PlayerMixin",
+		"PlayerPortalMixin",
+		"ServerPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

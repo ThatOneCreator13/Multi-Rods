@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "multirods",
+	"version": "${version}",
+	"name": "Multi Rods",
+	"description": "Personal World/Server Friendly              Allows Multiple Fishing Rod Setups                Fixes The Once In A While Glitch That Makes It So That When You Try To Go Through A Nether Portal To Set Up A Fishing Rod Setup (Typically RC Teleportation) The Fishing Bobber Doesn’t Reel In And Activate Whatever You’re Trying To Set Ups and Makes It So Those Setups Don’t Trigger When You Rejoin Your World And Stay Setup",
+	"authors": [
+		"ThatOneCreator13", "ChatGPT"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/multirods/icon.png",
+	"environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lincoln.multirods.MultiRodsMod"
+    ],
+    "client": [
+		"com.lincoln.multirods.client.MultiRodsClient"]
+  },
+	"mixins": [
+		"multirods.mixins.json",
+		{
+			"config": "multirods.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
