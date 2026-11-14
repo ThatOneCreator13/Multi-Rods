@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.lincoln.multirods.mixin",
+	"package": "com.thatonecreator13.multirods.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"priority": 2147483647,
 	"mixins": [

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.lincoln.multirods.client.mixin",
+	"package": "com.thatonecreator13.multirods.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
 		"MultiRodsClientMixin",
